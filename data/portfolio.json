@@ -1,0 +1,104 @@
+{
+  "personal": {
+    "name": "Md. Rifat Ahasan Pulock",
+    "title": "Full Stack Developer",
+    "subtitle": "Passionate Full Stack Developer | AI Enthusiast | Lifelong Learner",
+    "initials": "RP",
+    "email": "rifat@example.com",
+    "bio": [
+      "I'm a full stack web developer with expertise in modern web technologies. I'm passionate about building impactful academic and community platforms like UniNexus and UIU Media.",
+      "Beyond web development, I'm exploring machine learning, number theory, and IoT projects. I've built several hardware projects including remote-controlled cars and firefighter robots.",
+      "My approach combines technical skills with creative problem-solving to deliver solutions that are both functional and user-friendly."
+    ],
+    "image": "./assets/images/profile.jpg",
+    "fallbackImage": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face&auto=format&q=80",
+    "resumeUrl": "docs/resume.pdf"
+  },
+  "navigation": [
+    { "label": "About", "href": "#about" },
+    { "label": "Skills", "href": "#skills" },
+    { "label": "Projects", "href": "#projects" },
+    { "label": "Goals", "href": "#goals" },
+    { "label": "Contact", "href": "#contact" }
+  ],
+  "stats": [
+    { "number": "10+", "label": "Projects Completed" },
+    { "number": "5+", "label": "Technologies Mastered" },
+    { "number": "2", "label": "Academic Platforms" },
+    { "number": "∞", "label": "Learning Curiosity" }
+  ],
+  "skills": {
+    "Frontend": ["HTML", "CSS", "Tailwind CSS", "JavaScript", "React"],
+    "Backend": ["Node.js", "Express.js", "MongoDB", "Mongoose", "SQL"],
+    "Tools & Platforms": ["GitHub", "Docker", "Travis CI", "Postman", "Figma"],
+    "Other": ["Competitive Programming", "AI/ML", "Unity"]
+  },
+  "projects": [
+    {
+      "title": "UniNexus",
+      "description": "University social app connecting students, teachers, admins, and alumni...",
+      "technologies": ["React", "Node.js", "MongoDB", "Express"],
+      "link": "#",
+      "linkText": "View Code →",
+      "status": "completed"
+    },
+    {
+      "title": "UIU Media",
+      "description": "Web platform designed to enhance career opportunities and alumni connectivity...",
+      "technologies": ["HTML", "CSS", "JavaScript", "PHP"],
+      "link": "#",
+      "linkText": "View Code →",
+      "status": "completed"
+    },
+    {
+      "title": "Remote Controlled Car (ESP32)",
+      "description": "IoT-based smart car with both automation and manual control capabilities...",
+      "technologies": ["C++", "ESP32", "IoT"],
+      "link": "#",
+      "linkText": "View Details →",
+      "status": "completed"
+    },
+    {
+      "title": "Firefighter RoboCar",
+      "description": "NodeMCU-controlled robot capable of detecting fire and patrolling...",
+      "technologies": ["Arduino", "NodeMCU", "Sensors"],
+      "link": "#",
+      "linkText": "View Details →",
+      "status": "completed"
+    },
+    {
+      "title": "Homemade Food Website (Planned)",
+      "description": "Upcoming platform connecting chefs with customers for homemade meal delivery...",
+      "technologies": ["React", "Node.js", "MongoDB"],
+      "link": "#",
+      "linkText": "Coming Soon",
+      "status": "planned"
+    }
+  ],
+  "goals": [
+    {
+      "text": "Secure an early job in tech to apply my skills in real-world projects.",
+      "icon": "M13 10V3L4 14h7v7l9-11h-7z"
+    },
+    {
+      "text": "Apply for higher studies and scholarships in Europe to expand my knowledge.",
+      "icon": "M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9V3m0 18a9 9 0 009-9m-9 9a9 9 0 00-9-9"
+    },
+    {
+      "text": "Become an expert in machine learning and AI technologies.",
+      "icon": "M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
+    },
+    {
+      "text": "Contribute to open-source projects that make education more accessible.",
+      "icon": "M12 6.253v11.494m-9-5.747h18"
+    }
+  ],
+  "contact": {
+    "heading": "Get In Touch",
+    "description": "Interested in collaborating or have questions about my work? I'm always open to discussing new projects...",
+    "buttonText": "Say Hello"
+  },
+  "footer": {
+    "text": "Designed & Built by Md. Rifat Ahasan Pulock"
+  }
+}

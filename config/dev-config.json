@@ -1,0 +1,53 @@
+{
+  "development": {
+    "server": {
+      "port": 3000,
+      "host": "localhost",
+      "autoReload": true
+    },
+    "debugging": {
+      "enabled": true,
+      "logLevel": "debug",
+      "showPerformanceMetrics": true
+    },
+    "features": {
+      "hotReload": false,
+      "mockData": false,
+      "testMode": false
+    }
+  },
+  "build": {
+    "outputDir": "dist",
+    "optimization": {
+      "minifyCSS": true,
+      "minifyJS": true,
+      "optimizeImages": true,
+      "generateSourceMaps": false
+    },
+    "assets": {
+      "copyAssets": true,
+      "optimizeImages": true,
+      "generateWebP": false
+    }
+  },
+  "deployment": {
+    "target": "github-pages",
+    "customDomain": "",
+    "baseUrl": "/portfolio/",
+    "cleanUrls": true
+  },
+  "testing": {
+    "unit": {
+      "enabled": false,
+      "framework": "jest"
+    },
+    "e2e": {
+      "enabled": false,
+      "framework": "playwright"
+    },
+    "accessibility": {
+      "enabled": true,
+      "level": "AA"
+    }
+  }
+}

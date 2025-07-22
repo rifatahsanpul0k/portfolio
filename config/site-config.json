@@ -1,0 +1,46 @@
+{
+  "site": {
+    "title": "Md. Rifat Ahasan Pulock | Full Stack Developer",
+    "description": "Portfolio website of Md. Rifat Ahasan Pulock - Full Stack Developer, AI Enthusiast, and Lifelong Learner",
+    "url": "https://rifat-pulock.github.io/portfolio",
+    "language": "en",
+    "author": "Md. Rifat Ahasan Pulock"
+  },
+  "theme": {
+    "defaultMode": "system",
+    "enableSystemPreference": true,
+    "transitionDuration": "300ms"
+  },
+  "navigation": {
+    "enableSmoothScroll": true,
+    "headerOffset": 80,
+    "enableScrollSpy": true
+  },
+  "animations": {
+    "enableScrollAnimations": true,
+    "animationDuration": "0.6s",
+    "animationDelay": "0.1s",
+    "enableParallax": false
+  },
+  "performance": {
+    "enableLazyLoading": true,
+    "enableImageOptimization": true,
+    "enableResourcePreloading": true
+  },
+  "social": {
+    "github": "https://github.com/rifat-pulock",
+    "linkedin": "https://linkedin.com/in/rifat-pulock",
+    "twitter": "https://twitter.com/rifat_pulock",
+    "email": "rifat@example.com"
+  },
+  "analytics": {
+    "googleAnalyticsId": "",
+    "enableTracking": false
+  },
+  "seo": {
+    "enableMetaTags": true,
+    "enableOpenGraph": true,
+    "enableTwitterCards": true,
+    "enableStructuredData": true
+  }
+}

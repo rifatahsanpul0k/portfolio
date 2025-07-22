@@ -1,0 +1,53 @@
+{
+  "name": "rifat-portfolio",
+  "version": "1.0.0",
+  "description": "Modern portfolio website for Md. Rifat Ahasan Pulock",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx live-server --port=3000 --open=index.html",
+    "build": "npm run optimize",
+    "optimize": "echo 'Optimization complete - this is a static site'",
+    "deploy": "npm run build && echo 'Ready for deployment'",
+    "lint": "npx eslint js/ --ext .js",
+    "lint:fix": "npx eslint js/ --ext .js --fix",
+    "validate": "npx html-validate index.html"
+  },
+  "keywords": [
+    "portfolio",
+    "website",
+    "responsive",
+    "dark-theme",
+    "tailwind",
+    "vanilla-js"
+  ],
+  "author": {
+    "name": "Md. Rifat Ahasan Pulock",
+    "email": "rifat@example.com",
+    "url": "https://github.com/rifat-portfolio"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rifat-pulock/portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rifat-pulock/portfolio/issues"
+  },
+  "homepage": "https://rifat-pulock.github.io/portfolio",
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "html-validate": "^7.0.0",
+    "live-server": "^1.2.2",
+    "serve": "^14.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

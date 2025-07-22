@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Md. Rifat Ahasan Pulock | Full Stack Developer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script>
+      // Set theme on initial load based on user preference or system settings
+      if (
+        localStorage.theme === "dark" ||
+        (!("theme" in localStorage) &&
+          window.matchMedia("(prefers-color-scheme: dark)").matches)
+      ) {
+        document.documentElement.classList.add("dark");
+      } else {
+        document.documentElement.classList.remove("dark");
+      }
+    </script>
+  </head>
+  <body class="antialiased leading-relaxed transition-colors duration-500">
+    <!-- Header & Navigation -->
+    <header
+      id="header"
+      class="fixed top-0 left-0 right-0 z-50 transition-all duration-300"
+    >
+      <nav
+        class="container mx-auto px-6 py-4 flex justify-between items-center"
+      >
+        <a href="#" class="text-2xl font-bold highlight-text">RP</a>
+        <div class="hidden md:flex items-center space-x-8">
+          <a
+            href="#about"
+            class="text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-white transition duration-300"
+            >About</a
+          >
+          <a
+            href="#skills"
+            class="text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-white transition duration-300"
+            >Skills</a
+          >
+          <a
+            href="#projects"
+            class="text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-white transition duration-300"
+            >Projects</a
+          >
+          <a
+            href="#goals"
+            class="text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-white transition duration-300"
+            >Goals</a
+          >
+          <a
+            href="#contact"
+            class="text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-white transition duration-300"
+            >Contact</a
+          >
+          <button
+            id="theme-toggle"
+            type="button"
+            class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5"
+          >
+            <svg
+              id="theme-toggle-dark-icon"
+              class="hidden w-5 h-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"
+              ></path>
+            </svg>
+            <svg
+              id="theme-toggle-light-icon"
+              class="hidden w-5 h-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 5.05A1 1 0 003.636 3.636l-.707.707a1 1 0 001.414 1.414l.707-.707zM3 11a1 1 0 100-2H2a1 1 0 100 2h1zM13 17a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1z"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </button>
+        </div>
+        <!-- Mobile Menu Button -->
+        <button
+          id="mobile-menu-button"
+          class="md:hidden p-2 rounded-md text-gray-600 dark:text-gray-300 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-black dark:focus:ring-white"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16m-7 6h7"
+            />
+          </svg>
+        </button>
+      </nav>
+      <!-- Mobile Menu -->
+      <div
+        id="mobile-menu"
+        class="hidden md:hidden bg-gray-100/90 dark:bg-black/90 backdrop-blur-sm"
+      >
+        <a
+          href="#about"
+          class="block text-center py-3 px-4 text-sm hover:bg-gray-300 dark:hover:bg-gray-800 transition duration-300"
+          >About</a
+        >
+        <a
+          href="#skills"
+          class="block text-center py-3 px-4 text-sm hover:bg-gray-300 dark:hover:bg-gray-800 transition duration-300"
+          >Skills</a
+        >
+        <a
+          href="#projects"
+          class="block text-center py-3 px-4 text-sm hover:bg-gray-300 dark:hover:bg-gray-800 transition duration-300"
+          >Projects</a
+        >
+        <a
+          href="#goals"
+          class="block text-center py-3 px-4 text-sm hover:bg-gray-300 dark:hover:bg-gray-800 transition duration-300"
+          >Goals</a
+        >
+        <a
+          href="#contact"
+          class="block text-center py-3 px-4 text-sm hover:bg-gray-300 dark:hover:bg-gray-800 transition duration-300"
+          >Contact</a
+        >
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-6 sm:px-10 md:px-16 lg:px-24">
+      <!-- Hero Section -->
+      <section id="hero">
+        <div class="hero-container">
+          <div class="hero-image">
+            <img
+              src="./assets/images/profile.jpg"
+              alt="Md. Rifat Ahasan Pulock"
+              onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=128&h=128&fit=crop&crop=face&auto=format&q=80';"
+            />
+          </div>
+          <div class="hero-content">
+            <p class="text-lg text-gray-700 dark:text-gray-300 mb-2">
+              Hi, I'm
+              <span class="font-semibold"> Md. Rifat Ahasan Pulock</span>.
+            </p>
+            <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-4">
+              A Passionate Full Stack Developer.
+            </h1>
+            <p class="max-w-2xl text-lg text-gray-600 dark:text-gray-400 mb-8">
+              I build modern, responsive web applications and enjoy turning
+              complex ideas into elegant, user-friendly products.
+            </p>
+            <div
+              class="flex flex-col sm:flex-row items-center justify-center gap-4"
+            >
+              <a href="#projects" class="btn-primary"> View My Work </a>
+              <a
+                id="resume-button"
+                href="docs/resume.pdf"
+                class="btn-secondary"
+                download
+              >
+                <svg
+                  class="w-5 h-5 mr-2"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
+                  ></path>
+                </svg>
+                Download Resume
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about">
+        <h2 class="section-heading">About Me</h2>
+        <div
+          class="max-w-3xl mx-auto text-lg text-gray-700 dark:text-gray-400 space-y-6"
+        >
+          <p>
+            I'm a full stack web developer with expertise in modern web
+            technologies. I'm passionate about building impactful academic and
+            community platforms like
+            <span class="highlight-text">UniNexus</span> and
+            <span class="highlight-text">UIU Media</span>.
+          </p>
+          <p>
+            Beyond web development, I'm exploring machine learning, number
+            theory, and IoT projects. I've built several hardware projects
+            including remote-controlled cars and firefighter robots.
+          </p>
+          <p>
+            My approach combines technical skills with creative problem-solving
+            to deliver solutions that are both functional and user-friendly.
+          </p>
+        </div>
+        <div class="stats-grid mt-16">
+          <div class="stat-item">
+            <div class="text-4xl font-bold highlight-text">10+</div>
+            <div class="text-sm text-gray-600 dark:text-gray-400 mt-1">
+              Projects Completed
+            </div>
+          </div>
+          <div class="stat-item">
+            <div class="text-4xl font-bold highlight-text">5+</div>
+            <div class="text-sm text-gray-600 dark:text-gray-400 mt-1">
+              Technologies Mastered
+            </div>
+          </div>
+          <div class="stat-item">
+            <div class="text-4xl font-bold highlight-text">2</div>
+            <div class="text-sm text-gray-600 dark:text-gray-400 mt-1">
+              Academic Platforms
+            </div>
+          </div>
+          <div class="stat-item">
+            <div class="text-4xl font-bold highlight-text">&infin;</div>
+            <div class="text-sm text-gray-600 dark:text-gray-400 mt-1">
+              Learning Curiosity
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills">
+        <h2 class="section-heading">My Skills</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div class="skill-category">
+            <h3>Frontend</h3>
+            <div class="flex flex-wrap gap-2">
+              <span class="skill-badge">HTML</span
+              ><span class="skill-badge">CSS</span
+              ><span class="skill-badge">Tailwind CSS</span
+              ><span class="skill-badge">JavaScript</span
+              ><span class="skill-badge">React</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>Backend</h3>
+            <div class="flex flex-wrap gap-2">
+              <span class="skill-badge">Node.js</span
+              ><span class="skill-badge">Express.js</span
+              ><span class="skill-badge">MongoDB</span
+              ><span class="skill-badge">Mongoose</span
+              ><span class="skill-badge">SQL</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>Tools & Platforms</h3>
+            <div class="flex flex-wrap gap-2">
+              <span class="skill-badge">GitHub</span
+              ><span class="skill-badge">Docker</span
+              ><span class="skill-badge">Travis CI</span
+              ><span class="skill-badge">Postman</span
+              ><span class="skill-badge">Figma</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>Other</h3>
+            <div class="flex flex-wrap gap-2">
+              <span class="skill-badge">Competitive Programming</span
+              ><span class="skill-badge">AI/ML</span
+              ><span class="skill-badge">Unity</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects">
+        <h2 class="section-heading">Featured Projects</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Project Cards -->
+          <div class="project-card">
+            <div>
+              <h3 class="text-xl font-bold text-black dark:text-white mb-2">
+                UniNexus
+              </h3>
+              <p class="text-gray-600 dark:text-gray-400 mb-4 text-sm">
+                University social app connecting students, teachers, admins, and
+                alumni...
+              </p>
+              <div class="flex flex-wrap gap-2 mb-4 text-xs">
+                <span class="tech-tag">React</span
+                ><span class="tech-tag">Node.js</span
+                ><span class="tech-tag">MongoDB</span
+                ><span class="tech-tag">Express</span>
+              </div>
+            </div>
+            <a
+              href="#"
+              class="font-medium text-accent dark:text-accent-light hover:underline self-start mt-4"
+              >View Code &rarr;</a
+            >
+          </div>
+          <div class="project-card">
+            <div>
+              <h3 class="text-xl font-bold text-black dark:text-white mb-2">
+                UIU Media
+              </h3>
+              <p class="text-gray-600 dark:text-gray-400 mb-4 text-sm">
+                Web platform designed to enhance career opportunities and alumni
+                connectivity...
+              </p>
+              <div class="flex flex-wrap gap-2 mb-4 text-xs">
+                <span class="tech-tag">HTML</span
+                ><span class="tech-tag">CSS</span
+                ><span class="tech-tag">JavaScript</span
+                ><span class="tech-tag">PHP</span>
+              </div>
+            </div>
+            <a
+              href="#"
+              class="font-medium text-accent dark:text-accent-light hover:underline self-start mt-4"
+              >View Code &rarr;</a
+            >
+          </div>
+          <div class="project-card">
+            <div>
+              <h3 class="text-xl font-bold text-black dark:text-white mb-2">
+                Remote Controlled Car (ESP32)
+              </h3>
+              <p class="text-gray-600 dark:text-gray-400 mb-4 text-sm">
+                IoT-based smart car with both automation and manual control
+                capabilities...
+              </p>
+              <div class="flex flex-wrap gap-2 mb-4 text-xs">
+                <span class="tech-tag">C++</span
+                ><span class="tech-tag">ESP32</span
+                ><span class="tech-tag">IoT</span>
+              </div>
+            </div>
+            <a
+              href="#"
+              class="font-medium text-accent dark:text-accent-light hover:underline self-start mt-4"
+              >View Details &rarr;</a
+            >
+          </div>
+          <div class="project-card">
+            <div>
+              <h3 class="text-xl font-bold text-black dark:text-white mb-2">
+                Firefighter RoboCar
+              </h3>
+              <p class="text-gray-600 dark:text-gray-400 mb-4 text-sm">
+                NodeMCU-controlled robot capable of detecting fire and
+                patrolling...
+              </p>
+              <div class="flex flex-wrap gap-2 mb-4 text-xs">
+                <span class="tech-tag">Arduino</span
+                ><span class="tech-tag">NodeMCU</span
+                ><span class="tech-tag">Sensors</span>
+              </div>
+            </div>
+            <a
+              href="#"
+              class="font-medium text-accent dark:text-accent-light hover:underline self-start mt-4"
+              >View Details &rarr;</a
+            >
+          </div>
+          <div class="project-card">
+            <div>
+              <h3 class="text-xl font-bold text-black dark:text-white mb-2">
+                Homemade Food Website (Planned)
+              </h3>
+              <p class="text-gray-600 dark:text-gray-400 mb-4 text-sm">
+                Upcoming platform connecting chefs with customers for homemade
+                meal delivery...
+              </p>
+              <div class="flex flex-wrap gap-2 mb-4 text-xs">
+                <span class="tech-tag">React</span
+                ><span class="tech-tag">Node.js</span
+                ><span class="tech-tag">MongoDB</span>
+              </div>
+            </div>
+            <a
+              href="#"
+              class="font-medium text-gray-500 cursor-not-allowed self-start mt-4"
+              >Coming Soon</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- Goals Section -->
+      <section id="goals">
+        <h2 class="section-heading">My Goals</h2>
+        <ul class="space-y-4 max-w-3xl mx-auto">
+          <li>
+            <svg
+              class="goal-icon w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M13 10V3L4 14h7v7l9-11h-7z"
+              ></path>
+            </svg>
+            <p class="text-lg text-gray-700 dark:text-gray-300">
+              Secure an early job in tech to apply my skills in real-world
+              projects.
+            </p>
+          </li>
+          <li>
+            <svg
+              class="goal-icon w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9V3m0 18a9 9 0 009-9m-9 9a9 9 0 00-9-9"
+              ></path>
+            </svg>
+            <p class="text-lg text-gray-700 dark:text-gray-300">
+              Apply for higher studies and scholarships in Europe to expand my
+              knowledge.
+            </p>
+          </li>
+          <li>
+            <svg
+              class="goal-icon w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
+              ></path>
+            </svg>
+            <p class="text-lg text-gray-700 dark:text-gray-300">
+              Become an expert in machine learning and AI technologies.
+            </p>
+          </li>
+          <li>
+            <svg
+              class="goal-icon w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M12 6.253v11.494m-9-5.747h18"
+              ></path>
+            </svg>
+            <p class="text-lg text-gray-700 dark:text-gray-300">
+              Contribute to open-source projects that make education more
+              accessible.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact">
+        <div class="container">
+          <h2 class="section-heading">Get In Touch</h2>
+          <p class="max-w-2xl mx-auto text-gray-600 dark:text-gray-400 mb-8">
+            Interested in collaborating or have questions about my work? I'm
+            always open to discussing new projects...
+          </p>
+          <a href="mailto:example@email.com" class="btn-primary text-lg">
+            Say Hello
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="py-6 text-center text-gray-500 text-sm">
+      <p>Designed & Built by Md. Rifat Ahasan Pulock</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="./js/utils.js"></script>
+    <script src="./js/portfolio-data.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
