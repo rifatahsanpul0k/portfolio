@@ -51,7 +51,7 @@
       "status": "completed"
     },
     {
-      "title": "Remote Controlled Car (ESP32)",
+      "title": "Smart Car",
       "description": "IoT-based smart car with both automation and manual control capabilities...",
       "technologies": ["C++", "ESP32", "IoT"],
       "link": "#",
