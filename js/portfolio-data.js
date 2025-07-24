@@ -189,7 +189,11 @@ class PortfolioData {
             project.status === "planned"
               ? "font-medium text-gray-500 cursor-not-allowed self-start mt-4"
               : "font-medium text-accent dark:text-accent-light hover:underline self-start mt-4"
-          }">${project.linkText}</a>
+          }"${
+            project.status !== "planned"
+              ? ' target="_blank" rel="noopener noreferrer"'
+              : ""
+          }>${project.linkText}</a>
         </div>
       `
         )

@@ -38,7 +38,7 @@
       "title": "UniNexus",
       "description": "University social app connecting students, teachers, admins, and alumni...",
       "technologies": ["React", "Node.js", "MongoDB", "Express"],
-      "link": "#",
+      "link": "https://github.com/Asadullah-Imran/uniNexus",
       "linkText": "View Code →",
       "status": "completed"
     },
@@ -46,7 +46,7 @@
       "title": "UIU Media",
       "description": "Web platform designed to enhance career opportunities and alumni connectivity...",
       "technologies": ["HTML", "CSS", "JavaScript", "PHP"],
-      "link": "#",
+      "link": "https://github.com/your-username/uiu-media", 
       "linkText": "View Code →",
       "status": "completed"
     },
@@ -54,7 +54,7 @@
       "title": "Smart Car",
       "description": "IoT-based smart car with both automation and manual control capabilities...",
       "technologies": ["C++", "ESP32", "IoT"],
-      "link": "#",
+      "link": "https://github.com/your-username/smart-car", 
       "linkText": "View Details →",
       "status": "completed"
     },
@@ -62,7 +62,7 @@
       "title": "Firefighter RoboCar",
       "description": "NodeMCU-controlled robot capable of detecting fire and patrolling...",
       "technologies": ["Arduino", "NodeMCU", "Sensors"],
-      "link": "#",
+      "link": "https://github.com/your-username/firefighter-robocar",
       "linkText": "View Details →",
       "status": "completed"
     },
