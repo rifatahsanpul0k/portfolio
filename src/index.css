@@ -1,4 +1,28 @@
 /* ===================================
+   APP STRUCTURE
+   =================================== */
+.app {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.main-content {
+  padding-top: var(--header-height);
+  width: 100%;
+}
+
+/* ===================================
+   TEXT DISPLAY SIZES
+   =================================== */
+.text-display-small {
+  font-family: var(--font-display);
+  font-size: 48px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+/* ===================================
    DESIGN TOKENS & VARIABLES
    =================================== */
 :root {
@@ -10,11 +34,11 @@
   --color-gray-dark: #737373;
   --color-white: #FFFFFF;
   --color-black: #000000;
-  
+
   /* Typography */
   --font-primary: 'JetBrains Mono', monospace;
   --font-display: 'VT323', monospace;
-  
+
   /* Spacing */
   --spacing-xs: 4px;
   --spacing-sm: 8px;
@@ -22,11 +46,11 @@
   --spacing-lg: 24px;
   --spacing-xl: 32px;
   --spacing-2xl: 48px;
-  
+
   /* Layout */
   --max-width: 1400px;
   --header-height: 65px;
-  
+
   /* Borders */
   --border-color: rgba(0, 0, 0, 0.10);
   --border-width: 1px;
@@ -239,6 +263,7 @@ body {
     opacity: 0;
     transform: translateY(20px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -257,7 +282,7 @@ body {
     font-size: 96px;
     line-height: 76.8px;
   }
-  
+
   .grid-3,
   .grid-2 {
     grid-template-columns: 1fr;
