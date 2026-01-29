@@ -3,6 +3,7 @@ import './Header.css';
 
 const Header = () => {
     const [activeSection, setActiveSection] = useState('about');
+    const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
     // Smooth scroll to section
     const scrollToSection = (sectionId) => {
@@ -16,7 +17,13 @@ const Header = () => {
                 top: offsetPosition,
                 behavior: 'smooth'
             });
+            setIsMobileMenuOpen(false); // Close mobile menu after click
         }
+    };
+
+    // Toggle Mobile Menu
+    const toggleMobileMenu = () => {
+        setIsMobileMenuOpen(!isMobileMenuOpen);
     };
 
     // Detect active section on scroll
@@ -66,7 +73,13 @@ const Header = () => {
                     <span className="text-h2">RIFAT_PULOCK</span>
                 </div>
 
-                <nav className="header__nav">
+                {/* Mobile Menu Toggle (Three Dots) */}
+                <button className="header__mobile-toggle" onClick={toggleMobileMenu} aria-label="Menu">
+                    <span className="material-icons">more_vert</span>
+                </button>
+
+                {/* Navigation */}
+                <nav className={`header__nav ${isMobileMenuOpen ? 'header__nav--open' : ''}`}>
                     {navItems.map((item) => (
                         <div
                             key={item.id}
@@ -77,10 +90,19 @@ const Header = () => {
                             <span className="text-caption">{item.label}</span>
                         </div>
                     ))}
+
+                    {/* Mobile CTA (shown inside menu on small screens) */}
+                    <button
+                        className="header__hire-btn header__cta-mobile"
+                        onClick={() => scrollToSection('contact')}
+                    >
+                        <span className="text-caption">Get In Touch</span>
+                    </button>
                 </nav>
 
+                {/* Desktop CTA (hidden on mobile) */}
                 <button
-                    className="header__hire-btn header__cta"
+                    className="header__hire-btn header__cta-desktop"
                     onClick={() => scrollToSection('contact')}
                 >
                     <span className="text-caption">Get In Touch</span>
