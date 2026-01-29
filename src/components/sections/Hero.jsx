@@ -4,7 +4,7 @@ import './Hero.css';
 
 const Hero = () => {
     return (
-        <section className="hero border-b" id="home">
+        <section className="hero border-b" id="about">
             <div className="hero__container">
                 <div className="hero__title-wrapper">
                     <h1 className="hero__name">{profileData.name}</h1>

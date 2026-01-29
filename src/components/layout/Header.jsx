@@ -23,18 +23,23 @@ const Header = () => {
     useEffect(() => {
         const handleScroll = () => {
             const sections = ['about', 'github', 'projects', 'skills', 'contact'];
-            const scrollPosition = window.scrollY + 100; // Offset for header
+            const scrollPosition = window.scrollY + 150;
 
-            for (const sectionId of sections) {
+            // Check sections in reverse order to find the current one
+            for (let i = sections.length - 1; i >= 0; i--) {
+                const sectionId = sections[i];
                 const element = document.getElementById(sectionId);
                 if (element) {
-                    const { offsetTop, offsetHeight } = element;
-                    if (scrollPosition >= offsetTop && scrollPosition < offsetTop + offsetHeight) {
+                    const { offsetTop } = element;
+                    if (scrollPosition >= offsetTop) {
                         setActiveSection(sectionId);
-                        break;
+                        return;
                     }
                 }
             }
+
+            // Default to 'about' if at the very top
+            setActiveSection('about');
         };
 
         window.addEventListener('scroll', handleScroll);
