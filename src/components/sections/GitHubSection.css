@@ -3,13 +3,16 @@
 }
 
 .github-section__main-header {
-    max-width: var(--max-width);
-    margin: 0 auto;
-    padding: 48px 32px 32px;
+    width: 100%;
     background: rgba(0, 0, 0, 0.02);
+    display: flex;
+    justify-content: center;
 }
 
 .github-section__main-header-content {
+    max-width: var(--max-width);
+    width: 100%;
+    padding: 48px 32px 32px;
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -23,6 +26,7 @@
 
 .github-section__container {
     max-width: var(--max-width);
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -81,7 +85,7 @@
 }
 
 @media (max-width: 768px) {
-    .github-section__main-header {
+    .github-section__main-header-content {
         padding: 32px 20px 24px;
     }
 

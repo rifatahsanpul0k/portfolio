@@ -1,4 +1,12 @@
+.filter-bar-wrapper {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: center;
+}
+
 .filter-bar {
+    max-width: var(--max-width);
     width: 100%;
     display: flex;
     justify-content: space-between;

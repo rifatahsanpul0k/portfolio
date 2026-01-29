@@ -17,28 +17,30 @@ const FilterBar = () => {
     };
 
     return (
-        <div className="filter-bar border-b">
-            <div className="filter-bar__tabs">
-                {filterCategories.map((category) => (
-                    <button
-                        key={category}
-                        className={`filter-bar__tab ${activeFilter === category ? 'filter-bar__tab--active' : ''}`}
-                        onClick={() => handleFilterChange(category)}
-                    >
-                        <span className="text-caption">{category}</span>
-                    </button>
-                ))}
-            </div>
+        <div className="filter-bar-wrapper border-b">
+            <div className="filter-bar">
+                <div className="filter-bar__tabs">
+                    {filterCategories.map((category) => (
+                        <button
+                            key={category}
+                            className={`filter-bar__tab ${activeFilter === category ? 'filter-bar__tab--active' : ''}`}
+                            onClick={() => handleFilterChange(category)}
+                        >
+                            <span className="text-caption">{category}</span>
+                        </button>
+                    ))}
+                </div>
 
-            <div className="filter-bar__search">
-                <span className="material-icons filter-bar__search-icon">search</span>
-                <input
-                    type="text"
-                    className="filter-bar__search-input text-caption"
-                    placeholder="SEARCH_PROJECTS..."
-                    value={searchQuery}
-                    onChange={handleSearchChange}
-                />
+                <div className="filter-bar__search">
+                    <span className="material-icons filter-bar__search-icon">search</span>
+                    <input
+                        type="text"
+                        className="filter-bar__search-input text-caption"
+                        placeholder="SEARCH_PROJECTS..."
+                        value={searchQuery}
+                        onChange={handleSearchChange}
+                    />
+                </div>
             </div>
         </div>
     );

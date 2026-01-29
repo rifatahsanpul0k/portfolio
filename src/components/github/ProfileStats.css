@@ -1,11 +1,13 @@
 .profile-stats {
     width: 100%;
     background: rgba(255, 92, 0, 0.03);
+    display: flex;
+    justify-content: center;
 }
 
 .profile-stats__container {
     max-width: var(--max-width);
-    margin: 0 auto;
+    width: 100%;
     padding: 48px 32px;
     display: flex;
     flex-direction: column;
