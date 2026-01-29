@@ -1,0 +1,1 @@
+import{j as e}from"./index-CCYMgSF8.js";import"./redux-vendor-BLK8OarT.js";const d=({text:a,variant:s="default"})=>e.jsx("div",{className:`badge badge--${s}`,children:e.jsx("span",{className:"text-label",children:a})});export{d as B};
