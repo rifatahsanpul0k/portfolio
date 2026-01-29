@@ -40,12 +40,12 @@
   --font-display: 'VT323', monospace;
 
   /* Spacing */
-  --spacing-xs: 4px;
-  --spacing-sm: 8px;
-  --spacing-md: 16px;
-  --spacing-lg: 24px;
-  --spacing-xl: 32px;
-  --spacing-2xl: 48px;
+  --spacing-xs: 6px;
+  --spacing-sm: 12px;
+  --spacing-md: 20px;
+  --spacing-lg: 32px;
+  --spacing-xl: 48px;
+  --spacing-2xl: 64px;
 
   /* Layout */
   --max-width: 1400px;
@@ -87,42 +87,48 @@ body {
 }
 
 .text-h1 {
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 700;
-  line-height: 32px;
+  line-height: 38px;
+  letter-spacing: 0.5px;
 }
 
 .text-h2 {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 700;
-  line-height: 28px;
+  line-height: 32px;
+  letter-spacing: 0.5px;
 }
 
 .text-body {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 400;
-  line-height: 19.5px;
+  line-height: 22px;
   text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
 .text-caption {
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 400;
-  line-height: 15px;
+  line-height: 18px;
   text-transform: uppercase;
+  letter-spacing: 0.8px;
 }
 
 .text-label {
-  font-size: 8px;
+  font-size: 10px;
   font-weight: 400;
-  line-height: 12px;
+  line-height: 16px;
   text-transform: uppercase;
+  letter-spacing: 0.8px;
 }
 
 .text-stat {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700;
-  line-height: 20px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
 }
 
 /* ===================================
