@@ -1,0 +1,33 @@
+.badge {
+    padding: 2px 8px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.badge--default {
+    opacity: 0.40;
+    outline: 1px rgba(0, 0, 0, 0.20) solid;
+    outline-offset: -1px;
+}
+
+.badge--new {
+    background: rgba(255, 92, 0, 0.10);
+}
+
+.badge--new span {
+    color: var(--color-accent);
+    font-weight: 700;
+}
+
+.badge--mastered,
+.badge--optimized {
+    opacity: 0.60;
+}
+
+.badge--mastered span,
+.badge--optimized span {
+    color: var(--color-accent);
+    font-weight: 700;
+}

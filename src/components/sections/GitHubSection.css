@@ -1,0 +1,109 @@
+.github-section {
+    width: 100%;
+}
+
+.github-section__main-header {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 48px 32px 32px;
+    background: rgba(0, 0, 0, 0.02);
+}
+
+.github-section__main-header-content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.github-section__main-title {
+    color: var(--color-primary);
+    font-weight: 800;
+    letter-spacing: 4px;
+}
+
+.github-section__container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+
+.github-section__header {
+    padding: 32px;
+    background: rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.github-section__title {
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.github-section__loading,
+.github-section__error,
+.github-section__loading-grid,
+.github-section__error-grid {
+    padding: 48px 32px;
+    text-align: center;
+}
+
+.github-section__error span,
+.github-section__error-grid span {
+    color: var(--color-gray-dark);
+}
+
+.github-section__repos-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    background: var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.github-section__repos-grid>* {
+    background: var(--color-white);
+}
+
+.github-section__activity {
+    padding: 48px 32px;
+    background: rgba(0, 0, 0, 0.02);
+}
+
+.github-section__activity-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+    .github-section__repos-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .github-section__main-header {
+        padding: 32px 20px 24px;
+    }
+
+    .github-section__header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+        padding: 24px 20px;
+    }
+
+    .github-section__repos-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .github-section__activity {
+        padding: 32px 20px;
+    }
+
+    .github-section__loading,
+    .github-section__error,
+    .github-section__loading-grid,
+    .github-section__error-grid {
+        padding: 32px 20px;
+    }
+}

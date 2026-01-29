@@ -1,0 +1,608 @@
+<div style={{width: '100%', height: '100%', position: 'relative', overflow: 'hidden', borderLeft: '1px rgba(0, 0, 0, 0.10) solid', borderRight: '1px rgba(0, 0, 0, 0.10) solid'}}>
+    <div style={{width: 1398, paddingTop: 63, paddingBottom: 32, paddingLeft: 32, paddingRight: 32, left: 1, top: 65, position: 'absolute', borderBottom: '1px rgba(0, 0, 0, 0.10) solid', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 16, display: 'inline-flex'}}>
+        <div style={{alignSelf: 'stretch', paddingBottom: 0.59, opacity: 0.90, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+            <div style={{alignSelf: 'stretch', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 192, fontFamily: 'VT323', fontWeight: '400', textTransform: 'uppercase', lineHeight: 153.60, wordWrap: 'break-word'}}>DE_VELOPER</div>
+        </div>
+        <div style={{alignSelf: 'stretch', justifyContent: 'space-between', alignItems: 'flex-end', display: 'inline-flex'}}>
+            <div style={{maxWidth: 384, paddingRight: 27.03, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column'}}><span style="color: '#FF5C00', fontSize: 11, fontFamily: 'JetBrains Mono', fontWeight: '700', textTransform: 'uppercase', lineHeight: 16.50, wordWrap: 'break-word'">■</span><span style="color: '#737373', fontSize: 11, fontFamily: 'JetBrains Mono', fontWeight: '400', textTransform: 'uppercase', lineHeight: 16.50, wordWrap: 'break-word'"> Meet our recent architectural implementations and digital<br/>interfaces. Built for performance and scale.</span></div>
+            </div>
+            <div style={{paddingLeft: 12, paddingRight: 12, paddingTop: 4, paddingBottom: 4, background: 'rgba(0, 0, 0, 0.05)', outline: '1px rgba(0, 0, 0, 0.10) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'flex'}}>
+                <div style={{width: 8, height: 8, background: '#22C55E'}} />
+                <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 10, fontFamily: 'JetBrains Mono', fontWeight: '400', lineHeight: 15, wordWrap: 'break-word'}}>ACTIVE_SESSION: PORTFOLIO_V2.0.4</div>
+            </div>
+        </div>
+    </div>
+    <div style={{width: 1398, left: 1, top: 364.59, position: 'absolute', borderBottom: '1px rgba(0, 0, 0, 0.10) solid', justifyContent: 'center', alignItems: 'flex-start', display: 'inline-flex'}}>
+        <div style={{width: 466, padding: 32, borderRight: '1px rgba(0, 0, 0, 0.10) solid', flexDirection: 'column', justifyContent: 'space-between', alignItems: 'flex-start', display: 'inline-flex'}}>
+            <div style={{width: 401, paddingBottom: 48, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 32, display: 'flex'}}>
+                <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                    <div style={{alignSelf: 'stretch', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#A3A3A3', fontSize: 10, fontFamily: 'JetBrains Mono', fontWeight: '400', textTransform: 'uppercase', lineHeight: 15, wordWrap: 'break-word'}}>Projects / 01</div>
+                </div>
+                <div style={{alignSelf: 'stretch', height: 218.50, position: 'relative'}}>
+                    <div style={{width: 96, height: 96, left: 0, top: 0, position: 'absolute', outline: '2px rgba(0, 0, 0, 0.20) solid', outlineOffset: '-2px', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+                        <div style={{opacity: 0.20, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                            <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 36, fontFamily: 'Material Icons', fontWeight: '400', lineHeight: 40, wordWrap: 'break-word'}}>layers</div>
+                        </div>
+                    </div>
+                    <div style={{width: 401, left: 0, top: 120, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                        <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 24, fontFamily: 'JetBrains Mono', fontWeight: '700', lineHeight: 32, wordWrap: 'break-word'}}>NEO_PROTOCOL</div>
+                    </div>
+                    <div style={{width: 401, left: 0, top: 159, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                        <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#737373', fontSize: 12, fontFamily: 'JetBrains Mono', fontWeight: '400', textTransform: 'uppercase', lineHeight: 19.50, wordWrap: 'break-word'}}>Neo Protocol is a decentralized asset management<br/>dashboard designed to streamline liquidity provisioning<br/>and secure multi-chain interactions.</div>
+                    </div>
+                </div>
+            </div>
+            <div style={{width: 401, justifyContent: 'flex-start', alignItems: 'center', display: 'inline-flex'}}>
+                <div style={{paddingLeft: 8, paddingRight: 8, paddingTop: 2, paddingBottom: 2, background: 'rgba(255, 92, 0, 0.10)', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                    <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#FF5C00', fontSize: 10, fontFamily: 'JetBrains Mono', fontWeight: '700', lineHeight: 15, wordWrap: 'break-word'}}>NEW_INCUBATED</div>
+                </div>
+            </div>
+        </div>
+        <div style={{width: 932, paddingBottom: 44.50, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+            <div style={{alignSelf: 'stretch', borderBottom: '1px rgba(0, 0, 0, 0.10) solid', justifyContent: 'center', alignItems: 'flex-start', display: 'inline-flex'}}>
+                <div style={{flex: '1 1 0', padding: 24, borderRight: '1px rgba(0, 0, 0, 0.10) solid', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'inline-flex'}}>
+                    <div style={{width: 184, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                        <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#A3A3A3', fontSize: 10, fontFamily: 'JetBrains Mono', fontWeight: '400', textTransform: 'uppercase', lineHeight: 15, wordWrap: 'break-word'}}>Tech_Stack</div>
+                    </div>
+                    <div style={{width: 184, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                        <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 18, fontFamily: 'JetBrains Mono', fontWeight: '700', lineHeight: 28, wordWrap: 'break-word'}}>Next.js + Rust</div>
+                    </div>
+                </div>
+                <div style={{flex: '1 1 0', padding: 24, borderRight: '1px rgba(0, 0, 0, 0.10) solid', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'inline-flex'}}>
+                    <div style={{width: 184, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                        <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#A3A3A3', fontSize: 10, fontFamily: 'JetBrains Mono', fontWeight: '400', textTransform: 'uppercase', lineHeight: 15, wordWrap: 'break-word'}}>Lines_of_Code</div>
+                    </div>
+                    <div style={{width: 184, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                        <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 18, fontFamily: 'JetBrains Mono', fontWeight: '700', lineHeight: 28, wordWrap: 'break-word'}}>142K+</div>
+                    </div>
+                </div>
+                <div style={{flex: '1 1 0', padding: 24, borderRight: '1px rgba(0, 0, 0, 0.10) solid', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'inline-flex'}}>
+                    <div style={{width: 184, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                        <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#A3A3A3', fontSize: 10, fontFamily: 'JetBrains Mono', fontWeight: '400', textTransform: 'uppercase', lineHeight: 15, wordWrap: 'break-word'}}>Lighthouse_Score</div>
+                    </div>
+                    <div style={{width: 184, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                        <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 18, fontFamily: 'JetBrains Mono', fontWeight: '700', lineHeight: 28, wordWrap: 'break-word'}}>98/100</div>
+                    </div>
+                </div>
+                <div style={{flex: '1 1 0', paddingLeft: 24, paddingRight: 24, paddingTop: 35.50, paddingBottom: 35.50, justifyContent: 'center', alignItems: 'center', display: 'flex'}}>
+                    <div style={{flexDirection: 'column', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+                        <div style={{justifyContent: 'center', alignItems: 'flex-start', display: 'inline-flex'}}>
+                            <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 24, fontFamily: 'Material Icons', fontWeight: '400', lineHeight: 24, wordWrap: 'break-word'}}>arrow_forward</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style={{alignSelf: 'stretch', height: 256, position: 'relative', background: '#E5E5E5', overflow: 'hidden', flexDirection: 'column', justifyContent: 'center', alignItems: 'flex-start', display: 'flex'}}>
+                <img style={{alignSelf: 'stretch', flex: '1 1 0', position: 'relative', opacity: 0.50, background: 'linear-gradient(0deg, white 0%, white 100%)', backgroundBlendMode: 'saturation, normal'}} src="https://placehold.co/932x256" />
+                <div style={{width: 932, height: 256, left: 0, top: 0, position: 'absolute', opacity: 0.60, background: 'linear-gradient(0deg, #E5E5E5 0%, rgba(229, 229, 229, 0) 100%)'}} />
+            </div>
+        </div>
+    </div>
+    <div style={{width: 1398, left: 1, top: 762.09, position: 'absolute', borderBottom: '1px rgba(0, 0, 0, 0.10) solid', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+        <div style={{height: 47, overflow: 'hidden', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+            <div style={{paddingLeft: 24, paddingRight: 24, paddingTop: 16, paddingBottom: 16, background: '#171717', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+                <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'white', fontSize: 10, fontFamily: 'JetBrains Mono', fontWeight: '700', textTransform: 'uppercase', lineHeight: 15, wordWrap: 'break-word'}}>All</div>
+            </div>
+            <div style={{paddingLeft: 24, paddingRight: 24, paddingTop: 16, paddingBottom: 16, borderLeft: '1px rgba(0, 0, 0, 0.10) solid', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+                <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 10, fontFamily: 'JetBrains Mono', fontWeight: '700', textTransform: 'uppercase', lineHeight: 15, wordWrap: 'break-word'}}>Frontend</div>
+            </div>
+            <div style={{paddingLeft: 24, paddingRight: 24, paddingTop: 16, paddingBottom: 16, borderLeft: '1px rgba(0, 0, 0, 0.10) solid', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+                <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 10, fontFamily: 'JetBrains Mono', fontWeight: '700', textTransform: 'uppercase', lineHeight: 15, wordWrap: 'break-word'}}>Backend</div>
+            </div>
+            <div style={{paddingLeft: 24, paddingRight: 24, paddingTop: 16, paddingBottom: 16, borderLeft: '1px rgba(0, 0, 0, 0.10) solid', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+                <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 10, fontFamily: 'JetBrains Mono', fontWeight: '700', textTransform: 'uppercase', lineHeight: 15, wordWrap: 'break-word'}}>Fullstack</div>
+            </div>
+        </div>
+        <div style={{flex: '1 1 0', height: 47, paddingLeft: 24, paddingRight: 24, background: 'rgba(0, 0, 0, 0.05)', justifyContent: 'flex-start', alignItems: 'center', display: 'flex'}}>
+            <div style={{paddingRight: 12, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                <div style={{opacity: 0.30, justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 14, fontFamily: 'Material Icons', fontWeight: '400', lineHeight: 20, wordWrap: 'break-word'}}>search</div>
+            </div>
+            <div style={{flex: '1 1 0', paddingTop: 13, paddingBottom: 14, paddingLeft: 12, paddingRight: 12, overflow: 'hidden', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                <div style={{alignSelf: 'stretch', overflow: 'hidden', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                    <div style={{alignSelf: 'stretch', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#A3A3A3', fontSize: 10, fontFamily: 'JetBrains Mono', fontWeight: '400', textTransform: 'uppercase', letterSpacing: 1, wordWrap: 'break-word'}}>SEARCH_PROJECTS...</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style={{width: 1398, height: 646, left: 1, top: 810.09, position: 'absolute'}}>
+        <div style={{width: 466, left: 0, top: 0, position: 'absolute', borderRight: '1px rgba(0, 0, 0, 0.10) solid', borderBottom: '1px rgba(0, 0, 0, 0.10) solid', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+            <div style={{width: 465, height: 192, padding: 32, position: 'relative', background: 'rgba(0, 0, 0, 0.02)', overflow: 'hidden', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+                <div style={{opacity: 0.70, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                    <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 23.80, fontFamily: 'JetBrains Mono', fontStyle: 'italic', fontWeight: '800', lineHeight: 32, wordWrap: 'break-word'}}>SOLIDUS_AI</div>
+                </div>
+                <div style={{paddingLeft: 8, paddingRight: 8, paddingTop: 2, paddingBottom: 2, left: 16, top: 16, position: 'absolute', opacity: 0.40, outline: '1px rgba(0, 0, 0, 0.20) solid', outlineOffset: '-1px', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                    <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 8, fontFamily: 'JetBrains Mono', fontWeight: '400', textTransform: 'uppercase', lineHeight: 12, wordWrap: 'break-word'}}>Incubation</div>
+                </div>
+            </div>
+            <div style={{width: 465, height: 130, position: 'relative', borderTop: '1px rgba(0, 0, 0, 0.10) solid'}}>
+                <div style={{width: 232.50, padding: 16, left: 0, top: 1, position: 'absolute', borderRight: '1px rgba(0, 0, 0, 0.10) solid', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                    <div style={{width: 199.50, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                        <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#A3A3A3', fontSize: 8, fontFamily: 'JetBrains Mono', fontWeight: '400', textTransform: 'uppercase', lineHeight: 12, wordWrap: 'break-word'}}>Commits</div>
+                    </div>
+                    <div style={{width: 199.50, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                        <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 14, fontFamily: 'JetBrains Mono', fontWeight: '700', lineHeight: 20, wordWrap: 'break-word'}}>1.2K+</div>
+                    </div>
+                </div>
+                <div style={{width: 232.50, padding: 16, left: 232.50, top: 1, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                    <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                        <div style={{alignSelf: 'stretch', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#A3A3A3', fontSize: 8, fontFamily: 'JetBrains Mono', fontWeight: '400', textTransform: 'uppercase', lineHeight: 12, wordWrap: 'break-word'}}>Coverage</div>
+                    </div>
+                    <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                        <div style={{alignSelf: 'stretch', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 14, fontFamily: 'JetBrains Mono', fontWeight: '700', lineHeight: 20, wordWrap: 'break-word'}}>94%</div>
+                    </div>
+                </div>
+                <div style={{width: 232.50, padding: 16, left: 0, top: 65, position: 'absolute', borderTop: '1px rgba(0, 0, 0, 0.10) solid', borderRight: '1px rgba(0, 0, 0, 0.10) solid', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                    <div style={{width: 199.50, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                        <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#A3A3A3', fontSize: 8, fontFamily: 'JetBrains Mono', fontWeight: '400', textTransform: 'uppercase', lineHeight: 12, wordWrap: 'break-word'}}>Uptime</div>
+                    </div>
+                    <div style={{width: 199.50, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                        <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 14, fontFamily: 'JetBrains Mono', fontWeight: '700', lineHeight: 20, wordWrap: 'break-word'}}>99.9%</div>
+                    </div>
+                </div>
+                <div style={{width: 232.50, paddingLeft: 16, paddingRight: 16, paddingTop: 22, paddingBottom: 22, left: 232.50, top: 65, position: 'absolute', borderTop: '1px #E5E7EB solid', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+                    <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                        <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 14, fontFamily: 'Material Icons', fontWeight: '400', lineHeight: 20, wordWrap: 'break-word'}}>arrow_forward</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style={{width: 466, left: 466, top: 0, position: 'absolute', borderRight: '1px rgba(0, 0, 0, 0.10) solid', borderBottom: '1px rgba(0, 0, 0, 0.10) solid', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+            <div style={{width: 465, height: 192, padding: 32, position: 'relative', background: 'rgba(0, 0, 0, 0.02)', overflow: 'hidden', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+                <div style={{opacity: 0.70, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                    <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 24, fontFamily: 'JetBrains Mono', fontWeight: '800', lineHeight: 32, letterSpacing: 2.40, wordWrap: 'break-word'}}>COOKIE_3</div>
+                </div>
+                <div style={{paddingLeft: 8, paddingRight: 8, paddingTop: 2, paddingBottom: 2, left: 16, top: 16, position: 'absolute', opacity: 0.40, outline: '1px rgba(0, 0, 0, 0.20) solid', outlineOffset: '-1px', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                    <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 8, fontFamily: 'JetBrains Mono', fontWeight: '400', textTransform: 'uppercase', lineHeight: 12, wordWrap: 'break-word'}}>Acceleration</div>
+                </div>
+            </div>
+            <div style={{width: 465, height: 130, position: 'relative', borderTop: '1px rgba(0, 0, 0, 0.10) solid'}}>
+                <div style={{width: 232.50, padding: 16, left: 0, top: 1, position: 'absolute', borderRight: '1px rgba(0, 0, 0, 0.10) solid', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                    <div style={{width: 199.50, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                        <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#A3A3A3', fontSize: 8, fontFamily: 'JetBrains Mono', fontWeight: '400', textTransform: 'uppercase', lineHeight: 12, wordWrap: 'break-word'}}>Load_Time</div>
+                    </div>
+                    <div style={{width: 199.50, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                        <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 14, fontFamily: 'JetBrains Mono', fontWeight: '700', lineHeight: 20, wordWrap: 'break-word'}}>400ms</div>
+                    </div>
+                </div>
+                <div style={{width: 232.50, padding: 16, left: 232.50, top: 1, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                    <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                        <div style={{alignSelf: 'stretch', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#A3A3A3', fontSize: 8, fontFamily: 'JetBrains Mono', fontWeight: '400', textTransform: 'uppercase', lineHeight: 12, wordWrap: 'break-word'}}>Users</div>
+                    </div>
+                    <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                        <div style={{alignSelf: 'stretch', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 14, fontFamily: 'JetBrains Mono', fontWeight: '700', lineHeight: 20, wordWrap: 'break-word'}}>50K+</div>
+                    </div>
+                </div>
+                <div style={{width: 232.50, padding: 16, left: 0, top: 65, position: 'absolute', borderTop: '1px rgba(0, 0, 0, 0.10) solid', borderRight: '1px rgba(0, 0, 0, 0.10) solid', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                    <div style={{width: 199.50, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                        <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#A3A3A3', fontSize: 8, fontFamily: 'JetBrains Mono', fontWeight: '400', textTransform: 'uppercase', lineHeight: 12, wordWrap: 'break-word'}}>PRs_Merged</div>
+                    </div>
+                    <div style={{width: 199.50, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                        <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 14, fontFamily: 'JetBrains Mono', fontWeight: '700', lineHeight: 20, wordWrap: 'break-word'}}>342</div>
+                    </div>
+                </div>
+                <div style={{width: 232.50, paddingLeft: 16, paddingRight: 16, paddingTop: 22, paddingBottom: 22, left: 232.50, top: 65, position: 'absolute', borderTop: '1px #E5E7EB solid', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+                    <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                        <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 14, fontFamily: 'Material Icons', fontWeight: '400', lineHeight: 20, wordWrap: 'break-word'}}>arrow_forward</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style={{width: 466, left: 932, top: 0, position: 'absolute', borderBottom: '1px rgba(0, 0, 0, 0.10) solid', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+            <div style={{alignSelf: 'stretch', height: 192, padding: 32, position: 'relative', background: 'rgba(0, 0, 0, 0.02)', overflow: 'hidden', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+                <div style={{opacity: 0.70, justifyContent: 'flex-start', alignItems: 'center', gap: 4, display: 'flex'}}>
+                    <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                        <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 30, fontFamily: 'Material Icons', fontWeight: '400', lineHeight: 36, wordWrap: 'break-word'}}>terminal</div>
+                    </div>
+                    <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 23.80, fontFamily: 'JetBrains Mono', fontWeight: '800', lineHeight: 32, wordWrap: 'break-word'}}>ENGINES_OF_FURY</div>
+                </div>
+                <div style={{paddingLeft: 8, paddingRight: 8, paddingTop: 2, paddingBottom: 2, left: 16, top: 16, position: 'absolute', opacity: 0.40, outline: '1px rgba(0, 0, 0, 0.20) solid', outlineOffset: '-1px', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                    <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 8, fontFamily: 'JetBrains Mono', fontWeight: '400', textTransform: 'uppercase', lineHeight: 12, wordWrap: 'break-word'}}>Acceleration</div>
+                </div>
+            </div>
+            <div style={{alignSelf: 'stretch', height: 130, position: 'relative', borderTop: '1px rgba(0, 0, 0, 0.10) solid'}}>
+                <div style={{width: 233, padding: 16, left: 0, top: 1, position: 'absolute', borderRight: '1px rgba(0, 0, 0, 0.10) solid', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                    <div style={{width: 200, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                        <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#A3A3A3', fontSize: 8, fontFamily: 'JetBrains Mono', fontWeight: '400', textTransform: 'uppercase', lineHeight: 12, wordWrap: 'break-word'}}>Tests</div>
+                    </div>
+                    <div style={{width: 200, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                        <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 14, fontFamily: 'JetBrains Mono', fontWeight: '700', lineHeight: 20, wordWrap: 'break-word'}}>2.4K</div>
+                    </div>
+                </div>
+                <div style={{width: 233, padding: 16, left: 233, top: 1, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                    <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                        <div style={{alignSelf: 'stretch', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#A3A3A3', fontSize: 8, fontFamily: 'JetBrains Mono', fontWeight: '400', textTransform: 'uppercase', lineHeight: 12, wordWrap: 'break-word'}}>Efficiency</div>
+                    </div>
+                    <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                        <div style={{alignSelf: 'stretch', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 14, fontFamily: 'JetBrains Mono', fontWeight: '700', lineHeight: 20, wordWrap: 'break-word'}}>88%</div>
+                    </div>
+                </div>
+                <div style={{width: 233, padding: 16, left: 0, top: 65, position: 'absolute', borderTop: '1px rgba(0, 0, 0, 0.10) solid', borderRight: '1px rgba(0, 0, 0, 0.10) solid', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                    <div style={{width: 200, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                        <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#A3A3A3', fontSize: 8, fontFamily: 'JetBrains Mono', fontWeight: '400', textTransform: 'uppercase', lineHeight: 12, wordWrap: 'break-word'}}>Latency</div>
+                    </div>
+                    <div style={{width: 200, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                        <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 14, fontFamily: 'JetBrains Mono', fontWeight: '700', lineHeight: 20, wordWrap: 'break-word'}}>12ms</div>
+                    </div>
+                </div>
+                <div style={{width: 233, paddingLeft: 16, paddingRight: 16, paddingTop: 22, paddingBottom: 22, left: 233, top: 65, position: 'absolute', borderTop: '1px #E5E7EB solid', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+                    <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                        <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 14, fontFamily: 'Material Icons', fontWeight: '400', lineHeight: 20, wordWrap: 'break-word'}}>arrow_forward</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style={{width: 466, left: 0, top: 323, position: 'absolute', borderRight: '1px rgba(0, 0, 0, 0.10) solid', borderBottom: '1px rgba(0, 0, 0, 0.10) solid', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+            <div style={{width: 465, height: 192, padding: 32, position: 'relative', background: 'rgba(0, 0, 0, 0.02)', overflow: 'hidden', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+                <div style={{opacity: 0.70, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                    <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 24, fontFamily: 'JetBrains Mono', fontWeight: '700', textDecoration: 'underline', textTransform: 'uppercase', lineHeight: 32, wordWrap: 'break-word'}}>OMNIA</div>
+                </div>
+                <div style={{paddingLeft: 8, paddingRight: 8, paddingTop: 2, paddingBottom: 2, left: 16, top: 16, position: 'absolute', opacity: 0.40, outline: '1px rgba(0, 0, 0, 0.20) solid', outlineOffset: '-1px', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                    <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 8, fontFamily: 'JetBrains Mono', fontWeight: '400', textTransform: 'uppercase', lineHeight: 12, wordWrap: 'break-word'}}>Incubation</div>
+                </div>
+            </div>
+            <div style={{width: 465, height: 130, position: 'relative', borderTop: '1px rgba(0, 0, 0, 0.10) solid'}}>
+                <div style={{width: 232.50, padding: 16, left: 0, top: 1, position: 'absolute', borderRight: '1px rgba(0, 0, 0, 0.10) solid', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                    <div style={{width: 199.50, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                        <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#A3A3A3', fontSize: 8, fontFamily: 'JetBrains Mono', fontWeight: '400', textTransform: 'uppercase', lineHeight: 12, wordWrap: 'break-word'}}>Release</div>
+                    </div>
+                    <div style={{width: 199.50, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                        <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 14, fontFamily: 'JetBrains Mono', fontWeight: '700', lineHeight: 20, wordWrap: 'break-word'}}>v1.4.0</div>
+                    </div>
+                </div>
+                <div style={{width: 232.50, padding: 16, left: 232.50, top: 1, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                    <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                        <div style={{alignSelf: 'stretch', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#A3A3A3', fontSize: 8, fontFamily: 'JetBrains Mono', fontWeight: '400', textTransform: 'uppercase', lineHeight: 12, wordWrap: 'break-word'}}>Growth</div>
+                    </div>
+                    <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                        <div style={{alignSelf: 'stretch', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 14, fontFamily: 'JetBrains Mono', fontWeight: '700', lineHeight: 20, wordWrap: 'break-word'}}>2000%</div>
+                    </div>
+                </div>
+                <div style={{width: 232.50, padding: 16, left: 0, top: 65, position: 'absolute', borderTop: '1px rgba(0, 0, 0, 0.10) solid', borderRight: '1px rgba(0, 0, 0, 0.10) solid', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                    <div style={{width: 199.50, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                        <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#A3A3A3', fontSize: 8, fontFamily: 'JetBrains Mono', fontWeight: '400', textTransform: 'uppercase', lineHeight: 12, wordWrap: 'break-word'}}>Nodes</div>
+                    </div>
+                    <div style={{width: 199.50, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                        <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 14, fontFamily: 'JetBrains Mono', fontWeight: '700', lineHeight: 20, wordWrap: 'break-word'}}>72</div>
+                    </div>
+                </div>
+                <div style={{width: 232.50, paddingLeft: 16, paddingRight: 16, paddingTop: 22, paddingBottom: 22, left: 232.50, top: 65, position: 'absolute', borderTop: '1px #E5E7EB solid', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+                    <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                        <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 14, fontFamily: 'Material Icons', fontWeight: '400', lineHeight: 20, wordWrap: 'break-word'}}>arrow_forward</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style={{width: 466, left: 466, top: 323, position: 'absolute', borderRight: '1px rgba(0, 0, 0, 0.10) solid', borderBottom: '1px rgba(0, 0, 0, 0.10) solid', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+            <div style={{width: 465, height: 192, padding: 32, position: 'relative', background: 'rgba(0, 0, 0, 0.02)', overflow: 'hidden', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+                <div style={{minWidth: 177.61, opacity: 0.70, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                    <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 24, fontFamily: 'JetBrains Mono', fontWeight: '700', textTransform: 'uppercase', lineHeight: 32, letterSpacing: 2.40, wordWrap: 'break-word'}}>✓ DEXCHECK</div>
+                </div>
+                <div style={{paddingLeft: 8, paddingRight: 8, paddingTop: 2, paddingBottom: 2, left: 16, top: 16, position: 'absolute', opacity: 0.40, outline: '1px rgba(0, 0, 0, 0.20) solid', outlineOffset: '-1px', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                    <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 8, fontFamily: 'JetBrains Mono', fontWeight: '400', textTransform: 'uppercase', lineHeight: 12, wordWrap: 'break-word'}}>Incubation</div>
+                </div>
+            </div>
+            <div style={{width: 465, height: 130, position: 'relative', borderTop: '1px rgba(0, 0, 0, 0.10) solid'}}>
+                <div style={{width: 232.50, padding: 16, left: 0, top: 1, position: 'absolute', borderRight: '1px rgba(0, 0, 0, 0.10) solid', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                    <div style={{width: 199.50, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                        <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#A3A3A3', fontSize: 8, fontFamily: 'JetBrains Mono', fontWeight: '400', textTransform: 'uppercase', lineHeight: 12, wordWrap: 'break-word'}}>TVL_SECURED</div>
+                    </div>
+                    <div style={{width: 199.50, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                        <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 14, fontFamily: 'JetBrains Mono', fontWeight: '700', lineHeight: 20, wordWrap: 'break-word'}}>$2.1M</div>
+                    </div>
+                </div>
+                <div style={{width: 232.50, padding: 16, left: 232.50, top: 1, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                    <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                        <div style={{alignSelf: 'stretch', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#A3A3A3', fontSize: 8, fontFamily: 'JetBrains Mono', fontWeight: '400', textTransform: 'uppercase', lineHeight: 12, wordWrap: 'break-word'}}>API_Calls</div>
+                    </div>
+                    <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                        <div style={{alignSelf: 'stretch', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 14, fontFamily: 'JetBrains Mono', fontWeight: '700', lineHeight: 20, wordWrap: 'break-word'}}>8.5M</div>
+                    </div>
+                </div>
+                <div style={{width: 232.50, padding: 16, left: 0, top: 65, position: 'absolute', borderTop: '1px rgba(0, 0, 0, 0.10) solid', borderRight: '1px rgba(0, 0, 0, 0.10) solid', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                    <div style={{width: 199.50, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                        <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#A3A3A3', fontSize: 8, fontFamily: 'JetBrains Mono', fontWeight: '400', textTransform: 'uppercase', lineHeight: 12, wordWrap: 'break-word'}}>Versions</div>
+                    </div>
+                    <div style={{width: 199.50, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                        <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 14, fontFamily: 'JetBrains Mono', fontWeight: '700', lineHeight: 20, wordWrap: 'break-word'}}>18x</div>
+                    </div>
+                </div>
+                <div style={{width: 232.50, paddingLeft: 16, paddingRight: 16, paddingTop: 22, paddingBottom: 22, left: 232.50, top: 65, position: 'absolute', borderTop: '1px #E5E7EB solid', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+                    <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                        <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 14, fontFamily: 'Material Icons', fontWeight: '400', lineHeight: 20, wordWrap: 'break-word'}}>arrow_forward</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style={{width: 466, left: 932, top: 323, position: 'absolute', borderBottom: '1px rgba(0, 0, 0, 0.10) solid', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+            <div style={{alignSelf: 'stretch', height: 192, padding: 32, position: 'relative', background: 'rgba(0, 0, 0, 0.02)', overflow: 'hidden', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+                <div style={{opacity: 0.70, justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'flex'}}>
+                    <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                        <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 24, fontFamily: 'Material Icons', fontWeight: '400', lineHeight: 24, wordWrap: 'break-word'}}>security</div>
+                    </div>
+                    <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 24, fontFamily: 'JetBrains Mono', fontWeight: '700', lineHeight: 32, wordWrap: 'break-word'}}>SHIELDEUM</div>
+                </div>
+                <div style={{paddingLeft: 8, paddingRight: 8, paddingTop: 2, paddingBottom: 2, left: 16, top: 16, position: 'absolute', opacity: 0.40, outline: '1px rgba(0, 0, 0, 0.20) solid', outlineOffset: '-1px', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                    <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 8, fontFamily: 'JetBrains Mono', fontWeight: '400', textTransform: 'uppercase', lineHeight: 12, wordWrap: 'break-word'}}>Incubation</div>
+                </div>
+            </div>
+            <div style={{alignSelf: 'stretch', height: 130, position: 'relative', borderTop: '1px rgba(0, 0, 0, 0.10) solid'}}>
+                <div style={{width: 233, padding: 16, left: 0, top: 1, position: 'absolute', borderRight: '1px rgba(0, 0, 0, 0.10) solid', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                    <div style={{width: 200, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                        <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#A3A3A3', fontSize: 8, fontFamily: 'JetBrains Mono', fontWeight: '400', textTransform: 'uppercase', lineHeight: 12, wordWrap: 'break-word'}}>Blocked</div>
+                    </div>
+                    <div style={{width: 200, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                        <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 14, fontFamily: 'JetBrains Mono', fontWeight: '700', lineHeight: 20, wordWrap: 'break-word'}}>12K+</div>
+                    </div>
+                </div>
+                <div style={{width: 233, padding: 16, left: 233, top: 1, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                    <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                        <div style={{alignSelf: 'stretch', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#A3A3A3', fontSize: 8, fontFamily: 'JetBrains Mono', fontWeight: '400', textTransform: 'uppercase', lineHeight: 12, wordWrap: 'break-word'}}>Confidence</div>
+                    </div>
+                    <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                        <div style={{alignSelf: 'stretch', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 14, fontFamily: 'JetBrains Mono', fontWeight: '700', lineHeight: 20, wordWrap: 'break-word'}}>100%</div>
+                    </div>
+                </div>
+                <div style={{width: 233, padding: 16, left: 0, top: 65, position: 'absolute', borderTop: '1px rgba(0, 0, 0, 0.10) solid', borderRight: '1px rgba(0, 0, 0, 0.10) solid', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                    <div style={{width: 200, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                        <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#A3A3A3', fontSize: 8, fontFamily: 'JetBrains Mono', fontWeight: '400', textTransform: 'uppercase', lineHeight: 12, wordWrap: 'break-word'}}>Latency</div>
+                    </div>
+                    <div style={{width: 200, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                        <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 14, fontFamily: 'JetBrains Mono', fontWeight: '700', lineHeight: 20, wordWrap: 'break-word'}}>30ms</div>
+                    </div>
+                </div>
+                <div style={{width: 233, paddingLeft: 16, paddingRight: 16, paddingTop: 22, paddingBottom: 22, left: 233, top: 65, position: 'absolute', borderTop: '1px #E5E7EB solid', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+                    <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                        <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 14, fontFamily: 'Material Icons', fontWeight: '400', lineHeight: 20, wordWrap: 'break-word'}}>arrow_forward</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style={{width: 1398, left: 1, top: 1456.09, position: 'absolute', borderBottom: '1px rgba(0, 0, 0, 0.10) solid', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+        <div style={{alignSelf: 'stretch', padding: 32, background: 'rgba(0, 0, 0, 0.05)', borderBottom: '1px rgba(0, 0, 0, 0.10) solid', justifyContent: 'space-between', alignItems: 'center', display: 'inline-flex'}}>
+            <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 10, fontFamily: 'JetBrains Mono', fontWeight: '700', textTransform: 'uppercase', lineHeight: 15, letterSpacing: 3, wordWrap: 'break-word'}}>ENGINEERING_CORE // TECH_STACK</div>
+            </div>
+            <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#A3A3A3', fontSize: 10, fontFamily: 'JetBrains Mono', fontWeight: '400', lineHeight: 15, wordWrap: 'break-word'}}>TOTAL_MODULES: 08</div>
+            </div>
+        </div>
+        <div style={{alignSelf: 'stretch', justifyContent: 'center', alignItems: 'flex-start', display: 'inline-flex'}}>
+            <div style={{flex: '1 1 0', alignSelf: 'stretch', padding: 24, borderRight: '1px rgba(0, 0, 0, 0.10) solid', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                <div style={{width: 125.75, paddingTop: 17.38, paddingBottom: 19.37, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 14, display: 'flex'}}>
+                    <div style={{opacity: 0.60, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                        <div style={{width: 36, height: 44, position: 'relative'}}>
+                            <div style={{width: 27, height: 30, left: 4.50, top: 7, position: 'absolute', background: '#171717'}} />
+                        </div>
+                    </div>
+                    <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'flex'}}>
+                        <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', display: 'flex'}}>
+                            <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 10, fontFamily: 'JetBrains Mono', fontWeight: '700', textTransform: 'uppercase', lineHeight: 15, wordWrap: 'break-word'}}>React</div>
+                        </div>
+                        <div style={{alignSelf: 'stretch', opacity: 0.60, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', display: 'flex'}}>
+                            <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#FF5C00', fontSize: 8, fontFamily: 'JetBrains Mono', fontWeight: '700', lineHeight: 12, wordWrap: 'break-word'}}>MASTERED</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style={{flex: '1 1 0', alignSelf: 'stretch', padding: 24, borderRight: '1px rgba(0, 0, 0, 0.10) solid', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                <div style={{width: 125.75, paddingTop: 17.38, paddingBottom: 19.37, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 14, display: 'flex'}}>
+                    <div style={{opacity: 0.60, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                        <div style={{width: 36, height: 44, position: 'relative'}}>
+                            <div style={{width: 16.50, height: 9, left: 9, top: 17.50, position: 'absolute', background: '#171717'}} />
+                        </div>
+                    </div>
+                    <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'flex'}}>
+                        <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', display: 'flex'}}>
+                            <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 10, fontFamily: 'JetBrains Mono', fontWeight: '700', textTransform: 'uppercase', lineHeight: 15, wordWrap: 'break-word'}}>Node.js</div>
+                        </div>
+                        <div style={{alignSelf: 'stretch', opacity: 0.60, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', display: 'flex'}}>
+                            <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#FF5C00', fontSize: 8, fontFamily: 'JetBrains Mono', fontWeight: '700', lineHeight: 12, wordWrap: 'break-word'}}>OPTIMIZED</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style={{flex: '1 1 0', alignSelf: 'stretch', padding: 24, borderRight: '1px rgba(0, 0, 0, 0.10) solid', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                <div style={{width: 125.75, paddingTop: 17.38, paddingBottom: 19.37, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 14, display: 'flex'}}>
+                    <div style={{opacity: 0.60, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                        <div style={{width: 36, height: 44, position: 'relative'}}>
+                            <div style={{width: 30, height: 24, left: 3, top: 10, position: 'absolute', background: '#171717'}} />
+                        </div>
+                    </div>
+                    <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'flex'}}>
+                        <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', display: 'flex'}}>
+                            <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 10, fontFamily: 'JetBrains Mono', fontWeight: '700', textTransform: 'uppercase', lineHeight: 15, wordWrap: 'break-word'}}>Rust</div>
+                        </div>
+                        <div style={{alignSelf: 'stretch', opacity: 0.60, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', display: 'flex'}}>
+                            <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#FF5C00', fontSize: 8, fontFamily: 'JetBrains Mono', fontWeight: '700', lineHeight: 12, wordWrap: 'break-word'}}>MASTERED</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style={{flex: '1 1 0', alignSelf: 'stretch', padding: 24, borderRight: '1px rgba(0, 0, 0, 0.10) solid', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                <div style={{width: 125.75, paddingTop: 17.38, paddingBottom: 19.37, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 14, display: 'flex'}}>
+                    <div style={{opacity: 0.60, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                        <div style={{width: 36, height: 44, position: 'relative'}}>
+                            <div style={{width: 33, height: 24, left: 1.50, top: 10, position: 'absolute', background: '#171717'}} />
+                        </div>
+                    </div>
+                    <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'flex'}}>
+                        <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', display: 'flex'}}>
+                            <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 10, fontFamily: 'JetBrains Mono', fontWeight: '700', textTransform: 'uppercase', lineHeight: 15, wordWrap: 'break-word'}}>AWS</div>
+                        </div>
+                        <div style={{alignSelf: 'stretch', opacity: 0.60, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', display: 'flex'}}>
+                            <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#FF5C00', fontSize: 8, fontFamily: 'JetBrains Mono', fontWeight: '700', lineHeight: 12, wordWrap: 'break-word'}}>MASTERED</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style={{flex: '1 1 0', alignSelf: 'stretch', padding: 24, borderRight: '1px rgba(0, 0, 0, 0.10) solid', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                <div style={{width: 125.75, paddingTop: 17.38, paddingBottom: 19.37, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 14, display: 'flex'}}>
+                    <div style={{opacity: 0.60, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                        <div style={{width: 36, height: 44, position: 'relative'}}>
+                            <div style={{width: 30, height: 30, left: 3, top: 7, position: 'absolute', background: '#171717'}} />
+                        </div>
+                    </div>
+                    <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'flex'}}>
+                        <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', display: 'flex'}}>
+                            <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 10, fontFamily: 'JetBrains Mono', fontWeight: '700', textTransform: 'uppercase', lineHeight: 15, wordWrap: 'break-word'}}>Docker</div>
+                        </div>
+                        <div style={{alignSelf: 'stretch', opacity: 0.60, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', display: 'flex'}}>
+                            <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#FF5C00', fontSize: 8, fontFamily: 'JetBrains Mono', fontWeight: '700', lineHeight: 12, wordWrap: 'break-word'}}>OPTIMIZED</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style={{flex: '1 1 0', alignSelf: 'stretch', padding: 24, borderRight: '1px rgba(0, 0, 0, 0.10) solid', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                <div style={{width: 125.75, paddingTop: 17.38, paddingBottom: 19.37, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 14, display: 'flex'}}>
+                    <div style={{opacity: 0.60, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                        <div style={{width: 36, height: 44, position: 'relative'}}>
+                            <div style={{width: 27, height: 27, left: 4.50, top: 8.50, position: 'absolute', background: '#171717'}} />
+                        </div>
+                    </div>
+                    <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'flex'}}>
+                        <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', display: 'flex'}}>
+                            <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 10, fontFamily: 'JetBrains Mono', fontWeight: '700', textTransform: 'uppercase', lineHeight: 15, wordWrap: 'break-word'}}>Postgres</div>
+                        </div>
+                        <div style={{alignSelf: 'stretch', opacity: 0.60, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', display: 'flex'}}>
+                            <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#FF5C00', fontSize: 8, fontFamily: 'JetBrains Mono', fontWeight: '700', lineHeight: 12, wordWrap: 'break-word'}}>MASTERED</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style={{flex: '1 1 0', alignSelf: 'stretch', padding: 24, borderRight: '1px rgba(0, 0, 0, 0.10) solid', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                <div style={{width: 125.75, paddingTop: 17.38, paddingBottom: 19.37, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 14, display: 'flex'}}>
+                    <div style={{opacity: 0.60, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                        <div style={{width: 36, height: 44, position: 'relative'}}>
+                            <div style={{width: 27, height: 21, left: 4.50, top: 11.50, position: 'absolute', background: '#171717'}} />
+                        </div>
+                    </div>
+                    <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'flex'}}>
+                        <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', display: 'flex'}}>
+                            <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 10, fontFamily: 'JetBrains Mono', fontWeight: '700', textTransform: 'uppercase', lineHeight: 15, wordWrap: 'break-word'}}>Next.js</div>
+                        </div>
+                        <div style={{alignSelf: 'stretch', opacity: 0.60, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', display: 'flex'}}>
+                            <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#FF5C00', fontSize: 8, fontFamily: 'JetBrains Mono', fontWeight: '700', lineHeight: 12, wordWrap: 'break-word'}}>MASTERED</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style={{flex: '1 1 0', alignSelf: 'stretch', padding: 24, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                <div style={{alignSelf: 'stretch', paddingTop: 17.88, paddingBottom: 19.87, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 14, display: 'flex'}}>
+                    <div style={{opacity: 0.60, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                        <div style={{width: 36, height: 44, position: 'relative'}}>
+                            <div style={{width: 36, height: 34.50, left: 0, top: 4, position: 'absolute', background: '#171717'}} />
+                        </div>
+                    </div>
+                    <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'flex'}}>
+                        <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', display: 'flex'}}>
+                            <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 10, fontFamily: 'JetBrains Mono', fontWeight: '700', textTransform: 'uppercase', lineHeight: 15, wordWrap: 'break-word'}}>GraphQL</div>
+                        </div>
+                        <div style={{alignSelf: 'stretch', opacity: 0.60, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', display: 'flex'}}>
+                            <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#FF5C00', fontSize: 8, fontFamily: 'JetBrains Mono', fontWeight: '700', lineHeight: 12, wordWrap: 'break-word'}}>OPTIMIZED</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style={{width: 1398, left: 1, top: 1711.84, position: 'absolute', borderTop: '1px rgba(0, 0, 0, 0.10) solid', justifyContent: 'center', alignItems: 'flex-start', display: 'inline-flex'}}>
+        <div style={{width: 932, padding: 48, borderRight: '1px rgba(0, 0, 0, 0.10) solid', flexDirection: 'column', justifyContent: 'space-between', alignItems: 'flex-start', display: 'inline-flex'}}>
+            <div style={{width: 835, paddingBottom: 32, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 16, display: 'flex'}}>
+                <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                    <div style={{alignSelf: 'stretch', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#FF5C00', fontSize: 12, fontFamily: 'JetBrains Mono', fontWeight: '400', lineHeight: 16, wordWrap: 'break-word'}}>▶ READY_TO_BUILD?</div>
+                </div>
+                <div style={{paddingLeft: 16, paddingRight: 16, paddingTop: 8, paddingBottom: 8, background: 'black', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                    <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#E5E5E5', fontSize: 60, fontFamily: 'JetBrains Mono', fontWeight: '800', lineHeight: 60, wordWrap: 'break-word'}}>YOUR_PROJECT?</div>
+                </div>
+            </div>
+            <div style={{width: 835, opacity: 0.40, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 32, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                    <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 10, fontFamily: 'JetBrains Mono', fontWeight: '700', textTransform: 'uppercase', lineHeight: 15, letterSpacing: 2, wordWrap: 'break-word'}}>Twitter</div>
+                </div>
+                <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                    <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 10, fontFamily: 'JetBrains Mono', fontWeight: '700', textTransform: 'uppercase', lineHeight: 15, letterSpacing: 2, wordWrap: 'break-word'}}>Github</div>
+                </div>
+                <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                    <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 10, fontFamily: 'JetBrains Mono', fontWeight: '700', textTransform: 'uppercase', lineHeight: 15, letterSpacing: 2, wordWrap: 'break-word'}}>LinkedIn</div>
+                </div>
+                <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                    <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 10, fontFamily: 'JetBrains Mono', fontWeight: '700', textTransform: 'uppercase', lineHeight: 15, letterSpacing: 2, wordWrap: 'break-word'}}>Discord</div>
+                </div>
+            </div>
+        </div>
+        <div style={{width: 466, paddingLeft: 48, paddingRight: 48, paddingTop: 51.50, paddingBottom: 51.50, flexDirection: 'column', justifyContent: 'center', alignItems: 'flex-start', display: 'inline-flex'}}>
+            <div style={{alignSelf: 'stretch', position: 'relative', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 16, display: 'flex'}}>
+                <div style={{alignSelf: 'stretch', paddingLeft: 32, paddingRight: 32, paddingTop: 24, paddingBottom: 24, background: '#FF5C00', boxShadow: '0px 8px 10px -6px rgba(255, 92, 0, 0.20), 0px 20px 25px -5px rgba(255, 92, 0, 0.20)', overflow: 'hidden', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+                    <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'white', fontSize: 12, fontFamily: 'JetBrains Mono', fontWeight: '800', textTransform: 'uppercase', lineHeight: 16, letterSpacing: 1.20, wordWrap: 'break-word'}}>APPLY_FOR_INCUBATION</div>
+                </div>
+                <div style={{alignSelf: 'stretch', paddingLeft: 32, paddingRight: 32, paddingTop: 24, paddingBottom: 24, outline: '2px rgba(0, 0, 0, 0.10) solid', outlineOffset: '-2px', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+                    <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 12, fontFamily: 'JetBrains Mono', fontWeight: '800', textTransform: 'uppercase', lineHeight: 16, letterSpacing: 1.20, wordWrap: 'break-word'}}>VIEW_GITHUB_REPOSITORY</div>
+                </div>
+                <div style={{left: 298, top: -24, position: 'absolute', opacity: 0.10, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                    <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 96, fontFamily: 'Material Icons', fontWeight: '400', lineHeight: 96, wordWrap: 'break-word'}}>keyboard_arrow_right</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style={{width: 1398, height: 96, left: 1, top: 1963.84, position: 'absolute', opacity: 0.05}}>
+        <div style={{width: 116.50, height: 96, left: 0, top: 0, position: 'absolute', borderRight: '1px black solid'}} />
+        <div style={{width: 116.50, height: 96, left: 116.50, top: 0, position: 'absolute', borderRight: '1px black solid'}} />
+        <div style={{width: 116.50, height: 96, left: 233, top: 0, position: 'absolute', borderRight: '1px black solid'}} />
+        <div style={{width: 116.50, height: 96, left: 349.50, top: 0, position: 'absolute', borderRight: '1px black solid'}} />
+        <div style={{width: 116.50, height: 96, left: 582.50, top: 0, position: 'absolute', borderRight: '1px black solid'}} />
+        <div style={{width: 116.50, height: 96, left: 699, top: 0, position: 'absolute', borderRight: '1px black solid'}} />
+        <div style={{width: 116.50, height: 96, left: 932, top: 0, position: 'absolute', borderRight: '1px black solid'}} />
+        <div style={{width: 116.50, height: 96, left: 1048.50, top: 0, position: 'absolute', borderRight: '1px black solid'}} />
+        <div style={{width: 116.50, height: 96, left: 1165, top: 0, position: 'absolute', borderRight: '1px black solid'}} />
+        <div style={{width: 116.50, height: 96, left: 1281.50, top: 0, position: 'absolute'}} />
+        <div style={{width: 116.50, height: 96, left: 466, top: 0, position: 'absolute', borderRight: '1px black solid'}}>
+            <div style={{width: 115.50, height: 96, left: 0, top: 0, position: 'absolute', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+                <div style={{width: 32, height: 32, borderRadius: 9999, border: '1px black solid'}} />
+            </div>
+        </div>
+        <div style={{width: 116.50, height: 96, left: 815.50, top: 0, position: 'absolute', borderRight: '1px black solid'}}>
+            <div style={{width: 115.50, height: 96, left: 0, top: 0, position: 'absolute', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+                <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                    <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 24, fontFamily: 'Material Icons', fontWeight: '400', lineHeight: 24, wordWrap: 'break-word'}}>add</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style={{width: 1398, paddingLeft: 32, paddingRight: 32, paddingTop: 16, paddingBottom: 16, left: 1, top: 0, position: 'absolute', background: 'rgba(229, 229, 229, 0.80)', borderBottom: '1px rgba(0, 0, 0, 0.10) solid', backdropFilter: 'blur(6px)', justifyContent: 'space-between', alignItems: 'center', display: 'inline-flex'}}>
+        <div style={{justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'flex'}}>
+            <div style={{width: 32, height: 32, background: '#FF5C00', justifyContent: 'center', alignItems: 'center', display: 'flex'}}>
+                <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                    <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'white', fontSize: 14, fontFamily: 'Material Icons', fontWeight: '400', lineHeight: 20, wordWrap: 'break-word'}}>code</div>
+                </div>
+            </div>
+            <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 20, fontFamily: 'JetBrains Mono', fontWeight: '700', lineHeight: 28, wordWrap: 'break-word'}}>DEV_LABS</div>
+            </div>
+        </div>
+        <div style={{justifyContent: 'flex-start', alignItems: 'center', gap: 32, display: 'flex'}}>
+            <div style={{justifyContent: 'flex-start', alignItems: 'center', gap: 4, display: 'flex'}}>
+                <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                    <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 12, fontFamily: 'Material Icons', fontWeight: '400', lineHeight: 16, wordWrap: 'break-word'}}>arrow_back</div>
+                </div>
+                <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 10, fontFamily: 'JetBrains Mono', fontWeight: '500', textTransform: 'uppercase', lineHeight: 15, letterSpacing: 1, wordWrap: 'break-word'}}>Back to Lab</div>
+            </div>
+            <div style={{borderBottom: '1px #FF5C00 solid', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#FF5C00', fontSize: 10, fontFamily: 'JetBrains Mono', fontWeight: '500', textTransform: 'uppercase', lineHeight: 15, letterSpacing: 1, wordWrap: 'break-word'}}>Portfolio</div>
+            </div>
+            <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 10, fontFamily: 'JetBrains Mono', fontWeight: '500', textTransform: 'uppercase', lineHeight: 15, letterSpacing: 1, wordWrap: 'break-word'}}>Stack_Log</div>
+            </div>
+            <div style={{justifyContent: 'flex-start', alignItems: 'center', gap: 4, display: 'flex'}}>
+                <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                    <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 10, fontFamily: 'Material Icons', fontWeight: '400', lineHeight: 10, wordWrap: 'break-word'}}>grid_view</div>
+                </div>
+                <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#171717', fontSize: 10, fontFamily: 'JetBrains Mono', fontWeight: '500', textTransform: 'uppercase', lineHeight: 15, letterSpacing: 1, wordWrap: 'break-word'}}>Ecosystem</div>
+            </div>
+        </div>
+        <div style={{paddingLeft: 24, paddingRight: 24, paddingTop: 8, paddingBottom: 8, background: '#FF5C00', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+            <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'white', fontSize: 10, fontFamily: 'JetBrains Mono', fontWeight: '700', textTransform: 'uppercase', lineHeight: 15, letterSpacing: 1, wordWrap: 'break-word'}}>Hire Me</div>
+        </div>
+    </div>
+</div>

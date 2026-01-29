@@ -1,0 +1,142 @@
+.profile-stats {
+    width: 100%;
+    background: rgba(255, 92, 0, 0.03);
+}
+
+.profile-stats__container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 48px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.profile-stats__main {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.profile-stats__avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid var(--color-accent);
+}
+
+.profile-stats__info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.profile-stats__name {
+    margin: 0;
+    color: var(--color-primary);
+}
+
+.profile-stats__bio {
+    max-width: 600px;
+    line-height: 1.6;
+}
+
+.profile-stats__location {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    opacity: 0.7;
+}
+
+.profile-stats__location .material-icons {
+    font-size: 16px;
+}
+
+.profile-stats__numbers {
+    display: flex;
+    gap: 0;
+}
+
+.profile-stats__stat {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 24px;
+}
+
+.profile-stats__stat-value {
+    color: var(--color-accent);
+    font-weight: 800;
+}
+
+.profile-stats__stat-label {
+    font-weight: 700;
+    letter-spacing: 2px;
+    opacity: 0.6;
+}
+
+.profile-stats__link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 24px;
+    background: var(--color-black);
+    color: var(--color-white);
+    text-decoration: none;
+    width: fit-content;
+    transition: all 0.3s ease;
+}
+
+.profile-stats__link:hover {
+    background: var(--color-accent);
+    transform: translateX(4px);
+}
+
+.profile-stats__link span {
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.profile-stats__link .material-icons {
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {
+    .profile-stats__container {
+        padding: 32px 20px;
+    }
+
+    .profile-stats__main {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .profile-stats__avatar {
+        width: 80px;
+        height: 80px;
+    }
+
+    .profile-stats__numbers {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .profile-stats__stat {
+        border-left: none !important;
+        border-bottom: 1px solid var(--border-color);
+    }
+
+    .profile-stats__stat:last-child {
+        border-bottom: none;
+    }
+
+    .profile-stats__link {
+        width: 100%;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,29 @@
+.project-grid {
+    width: 100%;
+}
+
+.project-grid__container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.project-grid__empty {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 64px 32px;
+    text-align: center;
+}
+
+@media (max-width: 1024px) {
+    .project-grid__container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .project-grid__container {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,88 @@
+{
+    "professional_profile": {
+        "name": "Md Rifat Ahasan Pulock",
+        "student_id": "0112310594",
+        "role": "Full-Stack Developer & CSE Student",
+        "university": "United International University (UIU)",
+        "graduation_year": "2027",
+        "location": "Dhaka, Bangladesh",
+        "career_goal": "Software Engineer in Japan (Post-2027)"
+    },
+    "technical_skills": {
+        "frontend": [
+            "React",
+            "Redux",
+            "HTML5",
+            "CSS3",
+            "JavaScript"
+        ],
+        "backend": [
+            "Node.js",
+            "Express.js"
+        ],
+        "database": [
+            "PostgreSQL",
+            "MERN/PERN Stack"
+        ],
+        "networking_security": [
+            "Cisco Packet Tracer",
+            "OSPF",
+            "DHCP",
+            "ACLs",
+            "RSA Cryptography",
+            "PKI"
+        ],
+        "tools": [
+            "Git",
+            "GitHub",
+            "Ubuntu",
+            "Stripe API",
+            "Telegram Bot API"
+        ]
+    },
+    "projects": [
+        {
+            "name": "ShopyOnline",
+            "type": "Full-Stack E-Commerce",
+            "stack": "PERN Stack",
+            "features": [
+                "AI-powered search",
+                "Stripe payment integration",
+                "Admin Dashboard"
+            ]
+        },
+        {
+            "name": "NeoNest",
+            "type": "Mother & Baby Care App",
+            "stack": "Full-Stack",
+            "context": "Software Engineering Lab Project"
+        },
+        {
+            "name": "Trust Gap PKI Demo",
+            "type": "Cybersecurity Project",
+            "focus": "RSA Encryption and Certificate Authority simulation"
+        },
+        {
+            "name": "Telegram Location Bot",
+            "type": "Automation",
+            "function": "Automated location updates to Telegram via API"
+        }
+    ],
+    "certifications_and_learning": {
+        "professional": [
+            "ITEE Fundamental Engineer (FE) - Candidate"
+        ],
+        "languages": [
+            "English (Fluent)",
+            "Japanese (JLPT N4 - Candidate)"
+        ],
+        "research_interests": [
+            "Computer Vision for Medical Analysis (ECG/CT Scans)",
+            "Cybersecurity"
+        ]
+    },
+    "contact": {
+        "email": "rifatahsan39@gmail.com",
+        "phone": "01568544903"
+    }
+}
