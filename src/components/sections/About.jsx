@@ -8,7 +8,9 @@ const About = () => {
             <div className="about__container">
                 {/* Header */}
                 <div className="about__header border-b">
-                    <span className="text-caption">ABOUT_ME // BACKGROUND</span>
+                    <div className="about__header-content">
+                        <span className="text-caption">ABOUT_ME // BACKGROUND</span>
+                    </div>
                 </div>
 
                 {/* Content Grid */}

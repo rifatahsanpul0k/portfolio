@@ -8,8 +8,14 @@
 }
 
 .about__header {
-    padding: 24px 32px;
     background: rgba(0, 0, 0, 0.05);
+    padding: 0;
+}
+
+.about__header-content {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 24px 32px;
 }
 
 .about__header span {
