@@ -1,47 +1,85 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './Header.css';
 
 const Header = () => {
+    const [activeSection, setActiveSection] = useState('about');
+
+    // Smooth scroll to section
     const scrollToSection = (sectionId) => {
         const element = document.getElementById(sectionId);
         if (element) {
-            element.scrollIntoView({ behavior: 'smooth' });
+            const headerOffset = 80;
+            const elementPosition = element.getBoundingClientRect().top;
+            const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+            window.scrollTo({
+                top: offsetPosition,
+                behavior: 'smooth'
+            });
         }
     };
+
+    // Detect active section on scroll
+    useEffect(() => {
+        const handleScroll = () => {
+            const sections = ['about', 'github', 'projects', 'skills', 'contact'];
+            const scrollPosition = window.scrollY + 100; // Offset for header
+
+            for (const sectionId of sections) {
+                const element = document.getElementById(sectionId);
+                if (element) {
+                    const { offsetTop, offsetHeight } = element;
+                    if (scrollPosition >= offsetTop && scrollPosition < offsetTop + offsetHeight) {
+                        setActiveSection(sectionId);
+                        break;
+                    }
+                }
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        handleScroll(); // Initial check
+
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
+
+    const navItems = [
+        { id: 'about', label: 'About', icon: 'person' },
+        { id: 'github', label: 'GitHub', icon: 'code' },
+        { id: 'projects', label: 'Projects', icon: 'work' },
+        { id: 'skills', label: 'Skills', icon: 'psychology' },
+        { id: 'contact', label: 'Contact', icon: 'mail' }
+    ];
 
     return (
         <header className="header">
             <div className="header__container">
-                {/* Logo */}
                 <div className="header__logo">
                     <div className="header__logo-icon">
-                        <span className="material-icons">code</span>
+                        <span className="material-icons">terminal</span>
                     </div>
-                    <div className="text-h2">RIFAT_PULOCK</div>
+                    <span className="text-h2">RIFAT_PULOCK</span>
                 </div>
 
-                {/* Navigation */}
                 <nav className="header__nav">
-                    <div className="header__nav-item" onClick={() => scrollToSection('about')}>
-                        <span className="text-caption">About</span>
-                    </div>
-                    <div className="header__nav-item header__nav-item--active" onClick={() => scrollToSection('projects')}>
-                        <span className="text-caption">Projects</span>
-                    </div>
-                    <div className="header__nav-item" onClick={() => scrollToSection('skills')}>
-                        <span className="text-caption">Skills</span>
-                    </div>
-                    <div className="header__nav-item" onClick={() => scrollToSection('contact')}>
-                        <span className="text-caption">Contact</span>
-                    </div>
+                    {navItems.map((item) => (
+                        <div
+                            key={item.id}
+                            className={`header__nav-item ${activeSection === item.id ? 'header__nav-item--active' : ''}`}
+                            onClick={() => scrollToSection(item.id)}
+                        >
+                            <span className="material-icons header__nav-icon">{item.icon}</span>
+                            <span className="text-caption">{item.label}</span>
+                        </div>
+                    ))}
                 </nav>
 
-                {/* CTA Button */}
-                <div className="header__cta">
-                    <button className="header__hire-btn" onClick={() => scrollToSection('contact')}>
-                        <span className="text-caption">Get In Touch</span>
-                    </button>
-                </div>
+                <button
+                    className="header__hire-btn header__cta"
+                    onClick={() => scrollToSection('contact')}
+                >
+                    <span className="text-caption">Get In Touch</span>
+                </button>
             </div>
         </header>
     );
