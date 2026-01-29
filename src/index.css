@@ -40,12 +40,12 @@
   --font-display: 'VT323', monospace;
 
   /* Spacing */
-  --spacing-xs: 6px;
-  --spacing-sm: 12px;
-  --spacing-md: 20px;
-  --spacing-lg: 32px;
-  --spacing-xl: 48px;
-  --spacing-2xl: 64px;
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  --spacing-2xl: 48px;
 
   /* Layout */
   --max-width: 1400px;
